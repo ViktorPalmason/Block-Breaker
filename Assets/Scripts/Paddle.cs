@@ -6,6 +6,8 @@ public class Paddle : MonoBehaviour
 {
     [SerializeField] float screenWidthInUnits = 16f;
     [SerializeField] Vector2 startingPos = new Vector2(8f, 1f);
+    [SerializeField] float minX = 1f;
+    [SerializeField] float maxX = 15f;
 
     Vector2 currentPos;
 
@@ -18,7 +20,7 @@ public class Paddle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentPos.x = Input.mousePosition.x / Screen.width * screenWidthInUnits;
+        currentPos.x = Mathf.Clamp(Input.mousePosition.x / Screen.width * screenWidthInUnits, minX, maxX);
         transform.position = currentPos;
     }
 }
