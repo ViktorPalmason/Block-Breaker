@@ -183,7 +183,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 0.5, y: 0.5}
+  m_CellSize: {x: 1, y: 1}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 2
@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 1665473971}
   m_Layer: 0
   m_Name: ball3
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1542,7 +1542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Paddle1: {fileID: 785346938}
-  startingShotForce: {x: 2, y: 10}
+  startingShotForce: {x: 0, y: 10}
   paddleToBallVector: {x: 0, y: 0.5, z: 0}
 --- !u!1 &1708868821
 GameObject:
@@ -2069,6 +2069,18 @@ PrefabInstance:
     - target: {fileID: 5890406060605547045, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
       propertyPath: m_Name
       value: Block Square
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887459654013507525, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887459654013507525, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887459654013507525, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
