@@ -20,7 +20,7 @@ public class Block : MonoBehaviour
     {
         if(collision.gameObject.tag == "Ball")
         {
-            Destroy(this.gameObject);
+            Destroy(this.gameObject); 
         }
     }
 }
