@@ -17,7 +17,8 @@ public class Block : MonoBehaviour
         if(collision.gameObject.tag == "Ball")
         {
             AudioSource.PlayClipAtPoint(destructionSound, Camera.main.transform.position);
-            Destroy(this.gameObject); 
+            level.ReduceBlockNumber();
+            Destroy(this.gameObject);
         }
     }
 }

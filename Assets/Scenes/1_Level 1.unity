@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -237,6 +241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -293,6 +301,10 @@ PrefabInstance:
     - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
       propertyPath: m_Name
       value: Green Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -408,6 +420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -470,6 +486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -506,6 +526,10 @@ PrefabInstance:
     - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_Name
       value: Blue Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2247519148268001657, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -809,6 +833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -876,6 +904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6688832714104280572, guid: 2d5cb796f0f5a9744b730a949bbe2557, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -938,6 +970,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -954,6 +990,10 @@ PrefabInstance:
     - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_Name
       value: Blue Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2247519148268001657, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1067,6 +1107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1083,6 +1127,10 @@ PrefabInstance:
     - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_Name
       value: Blue Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2247519148268001657, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1181,6 +1229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pink Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6549352940660659791, guid: 04937e20cfe900948b998a40982765b0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1237,6 +1289,10 @@ PrefabInstance:
     - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
       propertyPath: m_Name
       value: White Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1373,6 +1429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1455,6 +1515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1527,6 +1591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1543,6 +1611,10 @@ PrefabInstance:
     - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_Name
       value: Blue Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2247519148268001657, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1646,6 +1718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1702,6 +1778,10 @@ PrefabInstance:
     - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
       propertyPath: m_Name
       value: Green Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1760,6 +1840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1817,6 +1901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6688832714104280572, guid: 2d5cb796f0f5a9744b730a949bbe2557, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1873,6 +1961,10 @@ PrefabInstance:
     - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
       propertyPath: m_Name
       value: Green Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1936,6 +2028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1992,6 +2088,10 @@ PrefabInstance:
     - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
       propertyPath: m_Name
       value: White Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2050,6 +2150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2106,6 +2210,10 @@ PrefabInstance:
     - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
       propertyPath: m_Name
       value: Green Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2270,6 +2378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pink Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6549352940660659791, guid: 04937e20cfe900948b998a40982765b0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2327,6 +2439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2383,6 +2499,10 @@ PrefabInstance:
     - target: {fileID: 6688832714104280572, guid: 2d5cb796f0f5a9744b730a949bbe2557, type: 3}
       propertyPath: m_Name
       value: Red Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688832714104280572, guid: 2d5cb796f0f5a9744b730a949bbe2557, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2446,6 +2566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pink Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6549352940660659791, guid: 04937e20cfe900948b998a40982765b0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2507,6 +2631,10 @@ PrefabInstance:
     - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
       propertyPath: m_Name
       value: White Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2570,6 +2698,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2632,6 +2764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2689,6 +2825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2710,6 +2850,10 @@ PrefabInstance:
     - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_Name
       value: Blue Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2247519148268001657, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2767,6 +2911,10 @@ PrefabInstance:
     - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_Name
       value: Blue Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2247519148268001657, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2920,6 +3068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pink Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6549352940660659791, guid: 04937e20cfe900948b998a40982765b0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2981,6 +3133,10 @@ PrefabInstance:
     - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
       propertyPath: m_Name
       value: White Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3049,6 +3205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3105,6 +3265,10 @@ PrefabInstance:
     - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
       propertyPath: m_Name
       value: White Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3173,6 +3337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6688832714104280572, guid: 2d5cb796f0f5a9744b730a949bbe2557, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3229,6 +3397,10 @@ PrefabInstance:
     - target: {fileID: 6549352940660659791, guid: 04937e20cfe900948b998a40982765b0, type: 3}
       propertyPath: m_Name
       value: Pink Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549352940660659791, guid: 04937e20cfe900948b998a40982765b0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3296,6 +3468,10 @@ PrefabInstance:
     - target: {fileID: 6688832714104280572, guid: 2d5cb796f0f5a9744b730a949bbe2557, type: 3}
       propertyPath: m_Name
       value: Red Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688832714104280572, guid: 2d5cb796f0f5a9744b730a949bbe2557, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3368,6 +3544,10 @@ PrefabInstance:
     - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
       propertyPath: m_Name
       value: White Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3446,6 +3626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6688832714104280572, guid: 2d5cb796f0f5a9744b730a949bbe2557, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3513,6 +3697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3539,6 +3727,10 @@ PrefabInstance:
     - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_Name
       value: Blue Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2247519148268001657, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3637,6 +3829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3694,6 +3890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8091072520996107679, guid: c80f6d8b7aeb14f44b27f266ff515cb6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3710,6 +3910,10 @@ PrefabInstance:
     - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_Name
       value: Blue Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2247519148268001657, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3767,6 +3971,10 @@ PrefabInstance:
     - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_Name
       value: Blue Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 916019158818335695, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2247519148268001657, guid: c3d09f66dea65e64d95a7d0f379fa592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3874,6 +4082,10 @@ PrefabInstance:
     - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
       propertyPath: m_Name
       value: White Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523743909035734354, guid: d8294a72f1af03d47bcb7861e8769c47, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4086,6 +4298,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 902f96387e52ab14595af1145d6d47fd, type: 3}
+--- !u!1001 &8299044751923353919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1214920772260258826, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_Name
+      value: Level Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567874345230492752, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.016767
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567874345230492752, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.851226
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567874345230492752, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.030479431
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567874345230492752, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567874345230492752, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567874345230492752, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567874345230492752, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567874345230492752, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567874345230492752, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567874345230492752, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b7d6bf60783185f47a16227a3e38ebb9, type: 3}
 --- !u!1001 &8594999376402343575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4208,5 +4477,6 @@ SceneRoots:
   - {fileID: 5993652764628203143}
   - {fileID: 8594999376402343575}
   - {fileID: 398521363}
+  - {fileID: 8299044751923353919}
   - {fileID: 1377095389}
   - {fileID: 2462494315027441856}
