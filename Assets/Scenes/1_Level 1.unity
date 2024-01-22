@@ -3947,8 +3947,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7868943612063964085, guid: 4156c5e2c06df6947a21d2e10c601107, type: 3}
       propertyPath: startingShotForce.y
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7868943612063964085, guid: 4156c5e2c06df6947a21d2e10c601107, type: 3}
+      propertyPath: ballSounds.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868943612063964085, guid: 4156c5e2c06df6947a21d2e10c601107, type: 3}
+      propertyPath: ballSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4554ed5f3f913304897f5ccabe2cec22, type: 3}
+    - target: {fileID: 7868943612063964085, guid: 4156c5e2c06df6947a21d2e10c601107, type: 3}
+      propertyPath: ballSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: d34ccbcdeeb739a42a282bf2968041ef, type: 3}
+    - target: {fileID: 7868943612063964085, guid: 4156c5e2c06df6947a21d2e10c601107, type: 3}
+      propertyPath: ballSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: f1e128efaf7a6564d8c2c9f727cc06be, type: 3}
+    - target: {fileID: 7868943612063964085, guid: 4156c5e2c06df6947a21d2e10c601107, type: 3}
+      propertyPath: ballSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 93f13495fbbaecb4db84e27c31513785, type: 3}
+    - target: {fileID: 7868943612063964085, guid: 4156c5e2c06df6947a21d2e10c601107, type: 3}
+      propertyPath: ballSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 49469ff603129804d8d30c3c968f632c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
