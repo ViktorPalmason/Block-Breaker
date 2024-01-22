@@ -6,19 +6,21 @@ public class Ball : MonoBehaviour
 {
     // Config params
     [SerializeField] Paddle Paddle1;
-    [SerializeField] Vector2 startingShotForce = new Vector2(12f, 15f);
+    [SerializeField] Vector2 startingShotForce = new Vector2(0f, 10f);
 
     // State
     [SerializeField] Vector3 paddleToBallVector = new Vector3(0,0.5f,0);
-    bool hasStarted = false;
+    [SerializeField] bool hasStarted = false;
 
     // Components
     Rigidbody2D rb;
+    AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -35,6 +37,17 @@ public class Ball : MonoBehaviour
                 //rb.AddForce(startingShotForce);
                 rb.velocity = startingShotForce;
                 hasStarted = true;
+            }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (hasStarted == true)
+        {
+            if (audioSource != null)
+            {
+                audioSource.Play();
             }
         }
     }
