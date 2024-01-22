@@ -5,7 +5,13 @@ using UnityEngine;
 public class Block : MonoBehaviour
 {
     [SerializeField] AudioClip destructionSound;
+    Level level;
 
+    private void Start()
+    {
+        level = FindObjectOfType<Level>();
+        level.IncreaseBlockNumber();
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Ball")
