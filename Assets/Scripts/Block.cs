@@ -4,22 +4,13 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] AudioClip destructionSound;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Ball")
         {
+            AudioSource.PlayClipAtPoint(destructionSound, transform.position);
             Destroy(this.gameObject); 
         }
     }

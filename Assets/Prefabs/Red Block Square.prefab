@@ -143,3 +143,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7253cf63f8790f5498993cffe0b50556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destructionSound: {fileID: 8300000, guid: 4554ed5f3f913304897f5ccabe2cec22, type: 3}
