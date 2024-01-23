@@ -144,3 +144,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destructionSound: {fileID: 8300000, guid: 4554ed5f3f913304897f5ccabe2cec22, type: 3}
+  blockSparkleVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
