@@ -748,6 +748,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Paddle1: {fileID: 4365227809474745061}
   startingShotForce: {x: 12, y: 15}
+  ballSounds:
+  - {fileID: 8300000, guid: d34ccbcdeeb739a42a282bf2968041ef, type: 3}
+  - {fileID: 8300000, guid: f1e128efaf7a6564d8c2c9f727cc06be, type: 3}
+  - {fileID: 8300000, guid: 93f13495fbbaecb4db84e27c31513785, type: 3}
+  - {fileID: 8300000, guid: 49469ff603129804d8d30c3c968f632c, type: 3}
   paddleToBallVector: {x: 0, y: 0.5, z: 0}
   hasStarted: 0
 --- !u!82 &6579688704027311787
