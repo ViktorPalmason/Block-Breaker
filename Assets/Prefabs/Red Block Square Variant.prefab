@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Block Square Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5890406060605547045, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
+      propertyPath: m_TagString
+      value: Breakable
+      objectReference: {fileID: 0}
     - target: {fileID: 7887459654013507525, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
       propertyPath: m_Color.b
       value: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameSession : MonoBehaviour
@@ -16,8 +17,7 @@ public class GameSession : MonoBehaviour
 
     // Reference variables
     [SerializeField] TextMeshProUGUI scoreText;
-
-
+    [SerializeField] TextMeshProUGUI headerText;
 
     private void Awake()
     {
@@ -36,7 +36,7 @@ public class GameSession : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreText.text = currentScore.ToString();   
+        scoreText.text = currentScore.ToString();
     }
 
     // Update is called once per frame
@@ -54,5 +54,10 @@ public class GameSession : MonoBehaviour
     public void ResetGame()
     {
         Destroy(gameObject);
+    }
+
+    public void UpdateLevelName(string levelName)
+    {
+        headerText.text = levelName;
     }
 }

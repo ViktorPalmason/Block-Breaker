@@ -50,7 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5890406060605547045, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
       propertyPath: m_Name
-      value: Block Square
+      value: White Block Square Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890406060605547045, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
+      propertyPath: m_TagString
+      value: Breakable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
