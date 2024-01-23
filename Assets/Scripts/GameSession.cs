@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class GameStatus : MonoBehaviour
+public class GameSession : MonoBehaviour
 {
     // config attributes
 
@@ -16,6 +16,22 @@ public class GameStatus : MonoBehaviour
 
     // Reference variables
     [SerializeField] TextMeshProUGUI scoreText;
+
+
+
+    private void Awake()
+    {
+        // Establishin a singleton patern for the GameStatus object
+        int gameStatusCount = FindObjectsOfType<GameSession>().Length;
+        if (gameStatusCount > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -33,5 +49,10 @@ public class GameStatus : MonoBehaviour
     {
         currentScore += scorePerBlockDestroyed;
         scoreText.text = currentScore.ToString();
+    }
+
+    public void ResetGame()
+    {
+        Destroy(gameObject);
     }
 }

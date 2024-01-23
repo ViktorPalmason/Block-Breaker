@@ -9,13 +9,13 @@ public class Block : MonoBehaviour
 
     // Reference variables
     Level level;
-    GameStatus game;
+    GameSession game;
 
     private void Start()
     {
         level = FindObjectOfType<Level>();
         level.IncreaseBlockNumber();
-        game = FindObjectOfType<GameStatus>();
+        game = FindObjectOfType<GameSession>();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
