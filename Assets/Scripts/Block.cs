@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
+    // The sound it plays when destoyed
     [SerializeField] AudioClip destructionSound;
+
+    // Reference variables
     Level level;
+    GameStatus game;
 
     private void Start()
     {
         level = FindObjectOfType<Level>();
         level.IncreaseBlockNumber();
+        game = FindObjectOfType<GameStatus>();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -18,6 +23,7 @@ public class Block : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(destructionSound, Camera.main.transform.position);
             level.ReduceBlockNumber();
+            game.AddPoints();
             Destroy(this.gameObject);
         }
     }
