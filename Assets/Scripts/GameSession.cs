@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class GameSession : MonoBehaviour
 {
+    // static reference to an instance of the class
+    public static GameSession Instance { get; private set; }
+
     // config attributes
 
     // This manipulates the speed of the game. Its range is from 0.1 to 10. 1 is normal speed.
@@ -21,14 +24,13 @@ public class GameSession : MonoBehaviour
 
     private void Awake()
     {
-        // Establishin a singleton patern for the GameStatus object
-        int gameStatusCount = FindObjectsOfType<GameSession>().Length;
-        if (gameStatusCount > 1)
+        if(Instance != null && Instance != this)
         {
             Destroy(gameObject);
         }
         else
         {
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
     }

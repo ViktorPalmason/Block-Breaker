@@ -13,15 +13,13 @@ public class Level : MonoBehaviour
     private void Start()
     {
         sceneLoader = FindObjectOfType<SceneLoader>();
-        // Get the Game Session object
-        var session = FindObjectsOfType<GameSession>();
+        // Get the Game Session Instance
+        var session = GameSession.Instance;
         if (session != null)
-            // As there could be many Game Sessions objects in the scene
-            // and we want the one that has been persistent throughout the game
-            // we choose the last one in the array.
-            session[session.Length-1].UpdateLevelName(LevelName);
+            // update the level name when entering a new level
+            session.UpdateLevelName(LevelName);
         else
-            Debug.Log("Could not find Game Session Object");
+            Debug.Log("Could not find Game Session Instance");
     }
 
     public void IncreaseBlockNumber()
