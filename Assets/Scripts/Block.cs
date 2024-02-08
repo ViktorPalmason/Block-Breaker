@@ -25,18 +25,38 @@ public class Block : MonoBehaviour
             if(tag == "Breakable")
             {
                 // Add points to the player score
-                game = FindObjectOfType<GameSession>();
-                game.AddPoints();
+                IncreasePlayerScore();
 
                 // Play SFX and VFX
-                AudioSource.PlayClipAtPoint(destructionSound, Camera.main.transform.position);
-                GameObject sparkle = GameObject.Instantiate(blockSparkleVFX, transform.position, transform.rotation);
-                Destroy(sparkle, 2f);
+                PlayBlockDestuctionSFX();
+                TriggerSparklesVFX();
 
-                // Reduce the number of blocks in the level and destroy the object.
-                level.ReduceBlockNumber();
-                Destroy(this.gameObject);
+                DestroyBlock();
             }
         }
+    }
+
+    private void DestroyBlock()
+    {
+        // Reduce the number of blocks in the level and destroy the object.
+        level.ReduceBlockNumber();
+        Destroy(this.gameObject);
+    }
+
+    private void TriggerSparklesVFX()
+    {
+        //Spawn the Sparkles partical effect at the blocks location
+        GameObject sparkle = GameObject.Instantiate(blockSparkleVFX, transform.position, transform.rotation);
+        Destroy(sparkle, 2f);
+    }
+
+    private void PlayBlockDestuctionSFX()
+    {
+        AudioSource.PlayClipAtPoint(destructionSound, Camera.main.transform.position);
+    }
+
+    private void IncreasePlayerScore()
+    {
+        GameSession.Instance.AddPoints();
     }
 }
