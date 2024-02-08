@@ -6,6 +6,6 @@ using UnityEngine;
 public static class TagManager
 {
     public const string BALL_TAG = "Ball";
-    public const string BREAKABLE = "Breakable";
-    public const string UNBREAKABLE = "Unbreakable";
+    public const string BREAKABLE_TAG = "Breakable";
+    public const string UNBREAKABLE_TAG = "Unbreakable";
 }

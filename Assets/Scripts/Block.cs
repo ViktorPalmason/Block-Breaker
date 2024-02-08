@@ -10,19 +10,18 @@ public class Block : MonoBehaviour
 
     // Reference variables
     Level level;
-    GameSession game;
 
     private void Start()
     {
         level = FindObjectOfType<Level>();
-        if(tag == "Breakable")
+        if(tag == TagManager.BREAKABLE_TAG)
             level.IncreaseBlockNumber();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Ball")
+        if(collision.gameObject.tag == TagManager.BALL_TAG)
         {
-            if(tag == "Breakable")
+            if (tag == TagManager.BREAKABLE_TAG)
             {
                 // Add points to the player score
                 IncreasePlayerScore();
