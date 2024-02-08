@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    // The sound it plays when destoyed
-    [SerializeField] AudioClip destructionSound;
-    [SerializeField] GameObject blockSparkleVFX;
+    // Config params
+    [SerializeField] AudioClip destructionSound; // The SFX til plays when detroyed
+    [SerializeField] GameObject blockSparkleVFX; // The VFX til spawns when destroyed
+    [SerializeField] int maxHits = 3; // The max hits it can take before being destroyed
+
 
     // Reference variables
     Level level;
+
+    // State variables
+    [SerializeField] int totalHits = 0; // Total hits the block has recieved by the ball (Only serialized for debugging)
+
 
     private void Start()
     {
@@ -23,30 +29,38 @@ public class Block : MonoBehaviour
         {
             if (tag == TagManager.BREAKABLE_TAG)
             {
-                // Add points to the player score
-                IncreasePlayerScore();
-
-                // Play SFX and VFX
-                PlayBlockDestuctionSFX();
-                TriggerSparklesVFX();
-
-                DestroyBlock();
+                HandleHit();
             }
+        }
+    }
+
+    private void HandleHit()
+    {
+        totalHits++;
+
+        if (totalHits >= maxHits)
+        {
+            DestroyBlock();
         }
     }
 
     private void DestroyBlock()
     {
+        // Add points to the player score
+        IncreasePlayerScore();
+
+        // Play SFX and VFX
+        PlayBlockDestuctionSFX();
+        TriggerSparklesVFX();
+
         // Reduce the number of blocks in the level and destroy the object.
         level.ReduceBlockNumber();
         Destroy(this.gameObject);
     }
 
-    private void TriggerSparklesVFX()
+    private void IncreasePlayerScore()
     {
-        //Spawn the Sparkles partical effect at the blocks location
-        GameObject sparkle = GameObject.Instantiate(blockSparkleVFX, transform.position, transform.rotation);
-        Destroy(sparkle, 2f);
+        GameSession.Instance.AddPoints();
     }
 
     private void PlayBlockDestuctionSFX()
@@ -54,8 +68,10 @@ public class Block : MonoBehaviour
         AudioSource.PlayClipAtPoint(destructionSound, Camera.main.transform.position);
     }
 
-    private void IncreasePlayerScore()
+    private void TriggerSparklesVFX()
     {
-        GameSession.Instance.AddPoints();
+        //Spawn the Sparkles partical effect at the blocks location
+        GameObject sparkle = GameObject.Instantiate(blockSparkleVFX, transform.position, transform.rotation);
+        Destroy(sparkle, 2f);
     }
 }

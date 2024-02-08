@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6703809840652880362
+--- !u!1001 &967549274730608601
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4450482124910653492, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
+      propertyPath: maxHits
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4771701561099620499, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -50,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5890406060605547045, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
       propertyPath: m_Name
-      value: Blue Block Square Variant
+      value: Red Block Square Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5890406060605547045, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
       propertyPath: m_TagString
@@ -58,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7887459654013507525, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7887459654013507525, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
       propertyPath: m_Color.g
@@ -66,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7887459654013507525, guid: 2da12e2c3ac693d428a9b1d0cd23a376, type: 3}
       propertyPath: m_Color.r
-      value: 0.008614063
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
