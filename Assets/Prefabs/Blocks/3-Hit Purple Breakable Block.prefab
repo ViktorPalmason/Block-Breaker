@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5155716460997261962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 297512220426198274, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 297512220426198274, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 297512220426198274, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129269758418033236, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129269758418033236, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129269758418033236, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129269758418033236, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129269758418033236, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129269758418033236, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129269758418033236, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129269758418033236, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129269758418033236, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129269758418033236, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101642467354847458, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}
+      propertyPath: m_Name
+      value: 3-Hit Purple Breakable Block
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d3276ab8ba3fe947abb79453c2b172d, type: 3}

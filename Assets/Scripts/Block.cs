@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class Block : MonoBehaviour
     [SerializeField] AudioClip destructionSound; // The SFX til plays when detroyed
     [SerializeField] GameObject blockSparkleVFX; // The VFX til spawns when destroyed
     [SerializeField] int maxHits = 3; // The max hits it can take before being destroyed
+    [SerializeField] Sprite[] blockDamageSprites; // The sprites representing each stage of damage on it. 
 
 
     // Reference variables
@@ -42,6 +44,15 @@ public class Block : MonoBehaviour
         {
             DestroyBlock();
         }
+        else
+        {
+            ShowNextHitSprite();
+        }
+    }
+
+    private void ShowNextHitSprite()
+    {
+        GetComponent<SpriteRenderer>().sprite = blockDamageSprites[totalHits - 1];
     }
 
     private void DestroyBlock()
