@@ -17,6 +17,7 @@ public class GameSession : MonoBehaviour
     [SerializeField] int currentScore = 0;
     // The score the player gets by destroying a block
     [SerializeField] int scorePerBlockDestroyed = 10;
+    [SerializeField] public bool isAutoPlayEnabled;
 
     // Reference variables
     [SerializeField] TextMeshProUGUI scoreText;
@@ -62,4 +63,6 @@ public class GameSession : MonoBehaviour
     {
         headerText.text = levelName;
     }
+
+    public bool IsAutoPlayEnabled() { return isAutoPlayEnabled; }
 }
