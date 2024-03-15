@@ -24,6 +24,8 @@ public class Block : MonoBehaviour
         level = FindObjectOfType<Level>();
         if(tag == TagManager.BREAKABLE_TAG)
             level.IncreaseBlockNumber();
+
+        maxHits = blockDamageSprites.Length;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -40,6 +42,7 @@ public class Block : MonoBehaviour
     {
         totalHits++;
 
+
         if (totalHits >= maxHits)
         {
             DestroyBlock();
@@ -52,7 +55,16 @@ public class Block : MonoBehaviour
 
     private void ShowNextHitSprite()
     {
-        GetComponent<SpriteRenderer>().sprite = blockDamageSprites[totalHits - 1];
+        if (blockDamageSprites[totalHits - 1] != null)
+        {
+            GetComponent<SpriteRenderer>().sprite = blockDamageSprites[totalHits - 1];
+        }
+        else
+        {
+            Debug.LogError("Block sprite is missing from array!");
+            Debug.LogError("Block causing error: " + gameObject.name);
+        }
+
     }
 
     private void DestroyBlock()
