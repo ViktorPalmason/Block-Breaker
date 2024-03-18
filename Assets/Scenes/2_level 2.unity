@@ -958,7 +958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2179359644982734919, guid: 022c3cef31034a343900344cd22ca179, type: 3}
       propertyPath: isAutoPlayEnabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2609255637099168559, guid: 022c3cef31034a343900344cd22ca179, type: 3}
       propertyPath: m_text
